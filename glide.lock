@@ -1,0 +1,96 @@
+hash: 1c223044fd1ddf92b40552fb5f854ea5b137261091d9c4c52cbe44bf1dba0fd5
+updated: 2016-05-29T12:04:56.184337004-07:00
+imports:
+- name: github.com/bep/inflect
+  version: b896c45f5af983b1f416bdf3bb89c4f1f0926f69
+- name: github.com/BurntSushi/toml
+  version: f0aeabca5a127c4078abb8c8d64298b147264b55
+- name: github.com/dchest/cssmin
+  version: fb8d9b44afdc258bfff6052d3667521babcb2239
+- name: github.com/eknkc/amber
+  version: 91774f050c1453128146169b626489e60108ec03
+  subpackages:
+  - parser
+- name: github.com/fsnotify/fsnotify
+  version: 30411dbcefb7a1da7e84f75530ad3abe4011b4f8
+- name: github.com/hashicorp/hcl
+  version: 9a905a34e6280ce905da1a32344b25e81011197a
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/token
+  - json/parser
+  - hcl/scanner
+  - hcl/strconv
+  - json/scanner
+  - json/token
+- name: github.com/kr/fs
+  version: 2788f0dbd16903de03cb8186e5c7d97b69ad387b
+- name: github.com/kyokomi/emoji
+  version: 17c5e7085c9d59630aa578df67f4469481fbe7a9
+- name: github.com/magiconair/properties
+  version: c265cfa48dda6474e208715ca93e987829f572f8
+- name: github.com/miekg/mmark
+  version: 1cc81181240610a61032c944355759771a652f71
+- name: github.com/mitchellh/mapstructure
+  version: d2dd0262208475919e1a362f675cfc0e7c10e905
+- name: github.com/opennota/urlesc
+  version: 5fa9ff0392746aeae1c4b37fcc42c65afa7a9587
+- name: github.com/pkg/errors
+  version: 431554f80b8ecf5058547f6c65b87fad81d90b03
+- name: github.com/pkg/sftp
+  version: 8bf4044e7f2612e63cd7b2f9dd8f8cc51579da0a
+- name: github.com/PuerkitoBio/purell
+  version: d69616f51cdfcd7514d6a380847a152dfc2a749d
+- name: github.com/russross/blackfriday
+  version: 2004188462c3946efefbdcd91aa83e49b4175bfb
+- name: github.com/shurcooL/sanitized_anchor_name
+  version: 10ef21a441db47d8b13ebcc5fd2310f636973c77
+- name: github.com/spf13/afero
+  version: f0b36a98d372af4038e20729956792ec38df54e2
+  subpackages:
+  - mem
+  - sftp
+- name: github.com/spf13/cast
+  version: 27b586b42e29bec072fe7379259cc719e1289da6
+- name: github.com/spf13/hugo
+  version: d486396ff5830de8ee0febeb19a714560a6b7299
+  subpackages:
+  - hugolib
+  - bufferpool
+  - helpers
+  - hugofs
+  - parser
+  - source
+  - target
+  - tpl
+  - transform
+- name: github.com/spf13/jwalterweatherman
+  version: 33c24e77fb80341fe7130ee7c594256ff08ccc46
+- name: github.com/spf13/nitro
+  version: 24d7ef30a12da0bdc5e2eb370a79c659ddccf0e8
+- name: github.com/spf13/pflag
+  version: cb88ea77998c3f024757528e3305022ab50b43be
+- name: github.com/spf13/viper
+  version: d8a428b8a30606e1d0b355d91edf282609ade1a6
+- name: github.com/yosssi/ace
+  version: 71afeb714739f9d5f7e1849bcd4a0a5938e1a70d
+- name: golang.org/x/crypto
+  version: 5bcd134fee4dd1475da17714aac19c0aa0142e2f
+  subpackages:
+  - ssh
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+- name: golang.org/x/sys
+  version: d4feaf1a7e61e1d9e79e6c4e76c6349e9cab0a03
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: f773ec03ce334298742df7f3108fc0d402646d22
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: a83829b6f1293c91addabc89d0571c246397bbf4
+devImports: []

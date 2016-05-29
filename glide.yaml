@@ -1,0 +1,5 @@
+package: github.com/zerok/travelogue-builder
+import:
+- package: github.com/spf13/hugo
+  subpackages:
+  - hugolib
